@@ -1,4 +1,4 @@
-price = int(input('금액 입력: '))
+price = int(input( ))
 money = 1000
 change = money - price
 count = 0
@@ -19,4 +19,4 @@ five = change // 5
 one = change % 5
 
 count = fhun + hun + fifty + ten + five + one
-print(f"동전 개수 합계: {count}")
+print(count)
